@@ -1,0 +1,50 @@
+body {
+    background-image: url("../img/connexion.png");
+    background-size: cover;
+}
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-decoration : underline;
+    text-align: center;
+    color: black;
+}
+
+#lancer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+
+.login {
+    text-align: center;
+    color: crimson;
+}
+
+#inscrire {
+    text-decoration: bold;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#password {
+    margin-left: 27px;
+}
+
+#connect {
+    margin-left: 185px;
+}
+
+#connect:hover {
+    background-color: grey;
+}
